@@ -6,7 +6,7 @@ include "config.php";
 <?php
 
 $cik = 3; //viena lapa
-$pg = $_GET[pg];
+$pg = $_GET['pg'];
 if ($pg == 1 or $pg == 0) {
 	$no = 0;
 }else{
